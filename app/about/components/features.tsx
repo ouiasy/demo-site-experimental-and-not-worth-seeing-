@@ -13,7 +13,12 @@ function Features() {
                 <div className="border rounded-md p-6 shadow space-y-6">
                     <div className="relative">
                         <div className="aspect-video bg-muted"></div>
-                        <h2 className="mt-3">記事タイトル <Link href="#" className="absolute inset-0"></Link></h2>
+                        <h2 className="mt-3">
+                            <Link href="#">
+                                記事タイトル
+                                <span  className="absolute inset-0"></span>
+                            </Link>
+                        </h2>
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                     <Button className="px-3 py-1"
